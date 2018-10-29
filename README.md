@@ -1,6 +1,9 @@
 # RL-NeuroEvolution
 
-the program trains an RL agent for the 'MountainCarContinuous-v0' gym environment using NeuroEvolution of Augmenting Topologies(NEAT). The implementation is based on the [neat-python](https://github.com/CodeReclaimers/neat-python) framework 
+the program trains an RL agent for the 'MountainCarContinuous-v0' gym environment using NeuroEvolution of Augmenting Topologies(NEAT). The implementation is based on the [neat-python](https://github.com/CodeReclaimers/neat-python) framework.
+
+![trained car](https://github.com/paxx13/RL-NeuroEvolution/blob/master/MountainCar-Checkpoint-10.gif "trained car")
+
 
 usage:
 ```sh
@@ -8,7 +11,7 @@ python .\main.py -h
 usage: main.py [-h] [-t] [-c CHECKPOINT]
 
 evolves a policy for solving gym 'MountainCarContinuous-v0' environment using
-neural evolution augmented topologies (NEAT)
+NeuroEvolution of Augmenting Topologies (NEAT)
 
 optional arguments:
   -h, --help            show this help message and exit
